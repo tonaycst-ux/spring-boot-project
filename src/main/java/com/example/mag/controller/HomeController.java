@@ -11,6 +11,7 @@ import com.example.mag.service.MessageService;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 public class HomeController {
     @Autowired
     MessageService ms;
